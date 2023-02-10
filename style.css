@@ -1,0 +1,57 @@
+*{
+    /* outline: 1px solid #f00; */
+}
+.heroImg{
+    background: url('./images/20221018-DSC07499\ 1.png') 50% 50% no-repeat;
+    background-size: cover;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.product-group{
+    padding-top: 118%;
+    transition: .2s;
+}
+.product-group:hover{
+   background-size: 120%;
+}
+.product-group1{
+    background-image: url('images/s2_1.png');
+}
+.product-group2{
+    background-image: url('images/s2_2.png');
+}
+.product-group3{
+    background-image: url('images/s2_3.png');
+}
+.product-group4{
+    background-image: url('images/s2_3.png');
+}
+.avator-comment::before{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 12px 12px 0;
+    border-color: transparent rgb(226 232 240 / var(--tw-border-opacity)) transparent transparent;
+    content: "";
+    position: absolute;
+    left: -12px;
+    top: calc(30% - 7.5px);
+ 
+    width: 0px;
+}
+.avator-comment::after{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 11px 11px 11px 0;
+    border-color: transparent #fff transparent transparent;
+    content: "";
+    position: absolute;
+    left: -11px;
+    top: calc(30% - 7px);
+ 
+    width: 0px;
+}
