@@ -12,11 +12,9 @@ img{
 }
 .product-group{
     padding-top: 118%;
-    transition: .2s;
+
 }
-.product-group:hover{
-   background-size: 120%;
-}
+
 .product-group1{
     background-image: url('images/s2_1.png');
 }
