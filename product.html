@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRUZER</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="px-6 py-3 lg:px-8">
+        <nav class="flex items-center justify-between" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="/kruzer" class="-m-1.5 p-1.5">
+                    <span class="sr-only">Kruzer</span>
+                    <img class="h-4" src="images/logo_b.png" alt="">
+                </a>
+            </div>
+            <div class="flex lg:hidden">
+                <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5">
+                    <span class="sr-only">Open main menu</span>
+                    <!-- Heroicon name: outline/bars-3 -->
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12">
+                <a href="/kruzer/brandStory " class="text-sm font-semibold leading-6">關於我們</a>
+
+                <a href="#" class="text-sm font-semibold leading-6">體驗頁面</a>
+
+                <a href="#" class="text-sm font-semibold leading-6">KRUZER商城</a>
+
+                <a href="#" class="text-sm font-semibold leading-6">LOOKBOOK</a>
+                <a href="#" class="text-sm font-semibold leading-6">BLOG</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                <a href="#" class="rounded-full px-3.5 py-1.5 text-base bg-amber-500 text-white">購物車
+                    <img src="images/cart.png" alt="" class="w-4 inline-block">
+                </a>
+            </div>
+        </nav>
+    </div>
+    <div class="container mx-auto my-10 px-5 max-w-screen-xl w-full">
+        <div id="main" class="flex flex-wrap w-full border-b-2 pb-10">
+            <div class="slider w-5/12">
+                <div class="slider_img bg-gray-200">
+                    <img src="images/skate.png" alt="" class="max-w-full w-auto m-auto">
+                </div>
+            </div>
+            <div class="content w-7/12 p-3 px-5">
+                <h3 class="text-2xl mb-3">滑板01</h3>
+                <h4 class="text-xl pb-3 border-b-2">NT$ 1,999</h4>
+                <p class="py-5">文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹</p>
+                <div class="py-3 px-5 bg-gray-200">
+                    <p class="mb-3">查看優惠</p>
+                    <p>文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介<br />
+                        紹文字介紹文字介紹文字介紹文字介紹文字介<br />
+                        紹文字介紹文字介紹文字介紹<br />
+                        文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介紹文字介<br />
+紹文字介紹文字介紹文字介紹文字介紹文字介<br />
+紹文字介紹文字介紹文字介紹</p>
+                </div>
+            </div>
+            <div class="slider_child grid grid-cols-5 w-5/12 gap-x-2 mt-5">
+                <div class="border relative w-full bg-cover bg-no-repeat bg-center"
+                    style="padding-bottom: 100%; background-image: url('images/cloud.png');">
+                </div>
+                <div class="border relative w-full bg-cover bg-no-repeat bg-center"
+                    style="padding-bottom: 100%; background-image: url('images/cover.png');">
+                </div>
+                <div class="border relative w-full bg-cover bg-no-repeat bg-center"
+                    style="padding-bottom: 100%; background-image: url('images/skate.png');">
+                </div>
+                <div class="border relative w-full bg-cover bg-no-repeat bg-center"
+                    style="padding-bottom: 100%; background-image: url('images/remote.png');">
+                </div>
+                <div class="border relative w-full bg-cover bg-no-repeat bg-center"
+                    style="padding-bottom: 100%; background-image: url('images/cloud.png');">
+                </div>
+            </div>
+            <div class="w-7/12 p-3 px-5 mt-5 flex flex-wrap content-center justify-end">
+                <div class="number-input h-10 w-32 mr-5">
+                    <div class="flex flex-row h-10 w-full rounded-lg relative bg-transparent mt-1">
+                        <button data-action="decrement"
+                            class="border text-gray-600 hover:text-gray-700 hover:bg-gray-100 h-full w-20 rounded-l cursor-pointer outline-none">
+                            <span class="m-auto text-2xl font-thin">−</span>
+                        </button>
+                        <input type="number"
+                            class="outline-none focus:outline-none text-center w-full border font-semibold text-md hover:text-black focus:text-black  md:text-basecursor-default flex items-center text-gray-700  outline-none"
+                            name="custom-input-number" value="0"></input>
+                        <button data-action="increment"
+                            class="border text-gray-600 hover:text-gray-700 hover:bg-gray-100 h-full w-20 rounded-r cursor-pointer">
+                            <span class="m-auto text-2xl font-thin">+</span>
+                        </button>
+                    </div>
+
+                </div>
+                <button href="#" class="rounded-full px-10 py-1 text-base bg-amber-500 text-white mr-5">添加至購物車
+                </button>
+                <button href="#" class="rounded-full px-10 py-1 text-base bg-amber-500 text-white">立即購買
+                </button>
+            </div>
+        </div>
+        <div id="customize" class="flex flex-wrap w-full pt-5">
+            <div class="md:w-5/12 px-3">
+                <h3 class="text-2xl">自由搭配</h3>
+                <div class="select_group mb-5">
+                    <div class="select_img grid grid-cols-2">
+                        <img src="images/skate2.png" alt="">
+                        <img src="images/pu33.png" alt="">
+                    </div>
+                    <div class="price flex justify-between items-center">
+                        <p>總價NT$ 1,999</p>
+                        <button href="#" class="rounded-full px-10 py-1 text-base border-2 border-gray-300">添加至購物車
+                        </button>
+                    </div>
+                </div>
+                <div class="flex items-center items-start mb-2">
+                    <input id="checkbox-1" aria-describedby="checkbox-1" type="checkbox" class="border-gray-300 accent-amber-500 h-4 w-4 rounded" checked="">
+                    <label for="checkbox-1" class="ml-5">K2滑板 板身 NT$ 1,999</label>
+                </div>
+                <div class="flex items-center items-start mb-2">
+                    <input id="checkbox-1" aria-describedby="checkbox-1" type="checkbox" class="border-gray-300 accent-amber-500 h-4 w-4 rounded" checked="">
+                    <label for="checkbox-1" class="ml-5">K2滑板 板身 NT$ 1,999</label>
+                </div>
+                <div class="flex items-center items-start mb-2">
+                    <input id="checkbox-1" aria-describedby="checkbox-1" type="checkbox" class="border-gray-300 accent-amber-500 h-4 w-4 rounded" checked="">
+                    <label for="checkbox-1" class="ml-5">K2滑板 板身 NT$ 1,999</label>
+                </div>
+                <div class="flex items-center items-start mb-2">
+                    <input id="checkbox-1" aria-describedby="checkbox-1" type="checkbox" class="border-gray-300 accent-amber-500 h-4 w-4 rounded" checked="">
+                    <label for="checkbox-1" class="ml-5">K2滑板 板身 NT$ 1,999</label>
+                </div>
+            </div>
+            <div class="md:w-7/12 px-3">
+                <h3 class="text-2xl mb-5">
+                    熱門套組
+                </h3>
+                <div class="border-2 border-amber-500 rounded-xl p-3 px-10 mb-5">
+                    <div class="setName border-b-2 text-2xl font-normal flex justify-between pb-3">
+                        <p>滑板01 套組A</p>
+                        <p class="text-amber-500">總價NT1999</p>
+                    </div>
+                    <p class="pt-3">文字介紹文字介紹文字介紹文字介紹文字介紹</p>
+                </div>
+                <div class="border-2 rounded-xl p-3 px-10 mb-5">
+                    <div class="setName border-b-2 text-2xl font-normal flex justify-between pb-3">
+                        <p>滑板01 套組A</p>
+                        <p class="text-amber-500">總價NT1999</p>
+                    </div>
+                    <p class="pt-3">文字介紹文字介紹文字介紹文字介紹文字介紹</p>
+                </div>
+                <div class="border-2 rounded-xl p-3 px-10 mb-5">
+                    <div class="setName border-b-2 text-2xl font-normal flex justify-between pb-3">
+                        <p>滑板01 套組A</p>
+                        <p class="text-amber-500">總價NT1999</p>
+                    </div>
+                    <p class="pt-3">文字介紹文字介紹文字介紹文字介紹文字介紹</p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
