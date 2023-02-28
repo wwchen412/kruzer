@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRUZER</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-slate-100">
+    <div class="relative">
+        <div class="px-6 pt-6 lg:px-8 absolute w-full z-10">
+            <nav class="flex items-center justify-between" aria-label="Global">
+                <div class="flex lg:flex-1">
+                    <a href="#" class="-m-1.5 p-1.5">
+                        <span class="sr-only">Kruzer</span>
+                        <img class="h-4" src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="flex lg:hidden">
+                    <button type="button"
+                        class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white">
+                        <span class="sr-only">Open main menu</span>
+                        <!-- Heroicon name: outline/bars-3 -->
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="hidden lg:flex lg:gap-x-12">
+                    <a href="/kruzer/brandStory " class="text-sm font-semibold leading-6 text-white">關於我們</a>
+
+                    <a href="#" class="text-sm font-semibold leading-6 text-white">體驗頁面</a>
+
+                    <a href="#" class="text-sm font-semibold leading-6 text-white">KRUZER商城</a>
+
+                    <a href="#" class="text-sm font-semibold leading-6 text-white">LOOKBOOK</a>
+                    <a href="#" class="text-sm font-semibold leading-6 text-white">BLOG</a>
+                </div>
+                <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                    <a href="#" class="rounded-full px-3.5 py-1.5 text-base text-white bg-amber-500">購物車
+                        <img src="images/cart.png" alt="" class="w-4 inline-block">
+                    </a>
+                </div>
+            </nav>
+            <!-- Mobile menu, show/hide based on menu open state. -->
+            <!-- <div role="dialog" aria-modal="true">
+                <div focus="true" class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
+                    <div class="flex items-center justify-between">
+                        <a href="#" class="-m-1.5 p-1.5">
+                            <span class="sr-only">Kruzer</span>
+                            <img class="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                alt="">
+                        </a>
+                        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                            <span class="sr-only">Close menu</span>
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="mt-6 flow-root">
+                        <div class="-my-6 divide-y divide-gray-500/10">
+                            <div class="space-y-2 py-6">
+                                <a href="#"
+                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Product</a>
+
+                                <a href="#"
+                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Features</a>
+
+                                <a href="#"
+                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Marketplace</a>
+
+                                <a href="#"
+                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Company</a>
+                            </div>
+                            <div class="py-6">
+                                <a href="#"
+                                    class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Log
+                                    in</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div id="banner" class="relative z-0">
+            <img src="images/ambassador.png" alt="">
+            <div class="absolute inset-y-1/2 md:left-24 left-5">
+                <h2 class="text-white md:text-5xl font-semibold">KRUZER大使</h2>
+                <h3 class="text-white md:text-3xl">KRUZER Ambassador</h3>
+            </div>
+        </div>
+       
+        
+    </div>
+    <div class="container mx-auto my-10 px-5 max-w-screen-xl w-full">
+        <h2 class="text-center text-3xl">品牌大使</h2>
+        <div class="border-b-2 border-black w-16 mx-auto my-3"></div>
+        <div class="my-10 border-b-2"></div>
+        <div class="grid md:grid-cols-3 gap-x-20">
+            <div class="profile mb-5">
+                <img src="images/avator.png" alt="" class="border-4">
+                <div class="title flex flex-wrap justify-between py-3 border-b-2 items-center">
+                    <h4 class="text-2xl font-semibold">jason</h4>
+                    <p>職業</p>
+                </div>
+                <p class="py-3">內容介紹內容介紹內容介紹內容介紹內容介紹內容介紹內容介紹內容內容介紹內容介紹介紹</p>
+            </div>
+            <div class="profile mb-5">
+                <img src="images/avator.png" alt="" class="border-4">
+                <div class="title flex flex-wrap justify-between py-3 border-b-2 items-center">
+                    <h4 class="text-2xl font-semibold">jason</h4>
+                    <p>職業</p>
+                </div>
+                <p class="py-3">內容介紹內容介紹內容介紹內容介紹內容介紹內容介紹內容介紹內容內容介紹內容介紹介紹</p>
+            </div>
+            <div class="profile mb-5">
+                <img src="images/avator.png" alt="" class="border-4">
+                <div class="title flex flex-wrap justify-between py-3 border-b-2 items-center">
+                    <h4 class="text-2xl font-semibold">jason</h4>
+                    <p>職業</p>
+                </div>
+                <p class="py-3">內容介紹內容介紹內容介紹內容介紹內容介紹內容介紹內容介紹內容內容介紹內容介紹介紹</p>
+            </div>
+            <div class="profile mb-5">
+                <img src="images/avator.png" alt="" class="border-4">
+                <div class="title flex flex-wrap justify-between py-3 border-b-2 items-center">
+                    <h4 class="text-2xl font-semibold">jason</h4>
+                    <p>職業</p>
+                </div>
+                <p class="py-3">內容介紹內容介紹內容介紹內容介紹內容介紹內容介紹內容介紹內容內容介紹內容介紹介紹</p>
+            </div>
+            <div class="profile mb-5">
+                <img src="images/avator.png" alt="" class="border-4">
+                <div class="title flex flex-wrap justify-between py-3 border-b-2 items-center">
+                    <h4 class="text-2xl font-semibold">jason</h4>
+                    <p>職業</p>
+                </div>
+                <p class="py-3">內容介紹內容介紹內容介紹內容介紹內容介紹內容介紹內容介紹內容內容介紹內容介紹介紹</p>
+            </div>
+            <div class="profile mb-5">
+                <img src="images/avator.png" alt="" class="border-4">
+                <div class="title flex flex-wrap justify-between py-3 border-b-2 items-center">
+                    <h4 class="text-2xl font-semibold">jason</h4>
+                    <p>職業</p>
+                </div>
+                <p class="py-3">內容介紹內容介紹內容介紹內容介紹內容介紹內容介紹內容介紹內容內容介紹內容介紹介紹</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
