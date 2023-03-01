@@ -53,3 +53,9 @@ img{
  
     width: 0px;
 }
+
+.select_img div:not(:first-child):before{
+    content: '+';
+    display: inline-block;
+
+}
