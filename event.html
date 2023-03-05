@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRUZER</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="tracking-widest bg-gray-100">
+    <div class="header p-6 lg:px-8 w-full bg-gray-800">
+        <nav class="flex items-center justify-between" aria-label="Global">
+            <div class="flex lg:flex-1">
+                <a href="#" class="-m-1.5 p-1.5">
+                    <span class="sr-only">Kruzer</span>
+                    <img class="h-4" src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="flex lg:hidden">
+                <button type="button"
+                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white">
+                    <span class="sr-only">Open main menu</span>
+                    <!-- Heroicon name: outline/bars-3 -->
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+            </div>
+            <div class="hidden lg:flex lg:gap-x-12">
+                <a href="/kruzer/brandStory " class="text-sm font-semibold leading-6 text-white">關於我們</a>
+
+                <a href="#" class="text-sm font-semibold leading-6 text-white">體驗頁面</a>
+
+                <a href="#" class="text-sm font-semibold leading-6 text-white">KRUZER商城</a>
+
+                <a href="#" class="text-sm font-semibold leading-6 text-white">LOOKBOOK</a>
+                <a href="#" class="text-sm font-semibold leading-6 text-white">BLOG</a>
+            </div>
+            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+
+            </div>
+        </nav>
+        <!-- Mobile menu, show/hide based on menu open state. -->
+        <!-- <div role="dialog" aria-modal="true">
+                <div focus="true" class="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
+                    <div class="flex items-center justify-between">
+                        <a href="#" class="-m-1.5 p-1.5">
+                            <span class="sr-only">Kruzer</span>
+                            <img class="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                alt="">
+                        </a>
+                        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                            <span class="sr-only">Close menu</span>
+                            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="mt-6 flow-root">
+                        <div class="-my-6 divide-y divide-gray-500/10">
+                            <div class="space-y-2 py-6">
+                                <a href="#"
+                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Product</a>
+
+                                <a href="#"
+                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Features</a>
+
+                                <a href="#"
+                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Marketplace</a>
+
+                                <a href="#"
+                                    class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">Company</a>
+                            </div>
+                            <div class="py-6">
+                                <a href="#"
+                                    class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Log
+                                    in</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    </div>
+    <div class="eventHero relative">
+        <img src="images/heroImg.png" alt="">
+        <div class="title text-white flex absolute z-1 inset-0 flex-wrap flex-col justify-center items-center">
+            <h2 class="text-4xl font-semibold mb-3">融合了傳統滑板和現代科技的運動</h2>
+            <h4>簡單上手的課程，讓你短時間內輕鬆掌握技巧，讓你享受無限滑行kruzing的樂趣</h4>
+        </div>
+    </div>
+    <div class="container max-w-screen-xl mx-auto px-5">
+        <div class="bg-white p-8 my-5 text-center">
+            <div class="grid grid-cols-2 gap-x-8">
+                <div class="text-white relative">
+                    <img src="images/snow.png" alt="">
+                    <p class="text-3xl text-center absolute inset-0 flex items-center justify-center">不需要出國到雪山</p>
+                </div>
+                <div class="text-white relative">
+                    <img src="images/sea.png" alt="">
+                    <p class="text-3xl text-center absolute inset-0 flex items-center justify-center">也無需乘船到水上</p>
+                </div>
+            </div>
+            <h3 class="text-3xl mt-5 font-semibold">讓整座城市成為你的運動場!</h3>
+            <p>實現隨時隨地都能享受無限滑行的快感與魅力</p>
+        </div>
+        <div class="grid grid-cols-3 py-20 px-16 gap-x-12 bg-cover min-h-screen felx items-center" style="background-image: url('images/6Point.png');">
+            <ul class="point_group text-white">
+                <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">全程有專業教練陪同</li>
+                <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">無需經驗又最好 上手的板類體驗</li>
+                <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">2.5小時讓你新手變高手 保證學會</li>
+            </ul>
+            <div class="px-5 p-3">
+                <img src="images/6PointTitle.png" alt="" class="m-auto max-w-full w-full">
+                <p class="text-center text-white my-10">KRUZER在2019年率先在台灣業界<br />
+                    舉辦獨創性電動滑板的「體驗式教學」
+                    </p>
+            </div>
+            <ul class="point_group text-white">
+                <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">全程有專業教練陪同</li>
+                <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">無需經驗又最好 上手的板類體驗</li>
+                <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">2.5小時讓你新手變高手 保證學會</li>
+            </ul>
+        </div>
+        <!-- 場次 -->
+        <div class="bg-white p-8 my-5 text-center">
+            <div class="grid grid-cols-2 gap-x-8">
+                <div class="text-white relative">
+                    <img src="images/sunsetEvent.png" alt="">
+                    <p class="text-3xl text-center absolute inset-0 flex items-center justify-center">台中夕陽場</p>
+                </div>
+                <div class="text-white relative">
+                    <img src="images/night.png" alt="">
+                    <p class="text-3xl text-center absolute inset-0 flex items-center justify-center">台北夜光場</p>
+                </div>
+            </div>
+            <h3 class="text-3xl mt-5 mb-3 font-semibold">用世界正流行的方式一同探索城市</h3>
+            <p>不需要任何經驗，第一次玩滑板就上手，就是這麼輕鬆簡單</p>
+        </div>
+       
+    </div>
+     <!-- 體驗活動 -->
+     <div class="experience my-10 px-20 bg-cover py-10" style="background-image: url('images/experienceBg.png');">
+        <h3 class="text-center text-3xl font-semibold mb-5">KRUZER無限滑行2.5H體驗</h3>
+        <p class="text-center">我們提供多種活動時段和場所以供選擇，你能夠更加靈活地安排時間和地點</p>
+        <div class="grid grid-cols-2 gap-x-12 mt-10">
+            <div class="bg-white/[.50] p-5 px-10">
+                <h3 class="text-3xl font-semibold mb-=5 text-center">
+                    台北 TAIPEI
+                </h3>
+                <img src="images/taipei.png" alt="" class="my-5">
+                <p class="mb-10">平日夜光場：晚上７：４５<br />
+                假日夜光場：晚上６：００</p>
+                <p>地點：內湖極限運動公園（管理中心前）<br />
+                    汽車：公園附屬停車場<br />
+                    機車：公車站牌旁停車格<br />
+                    公車路線：綠16、藍26、552</p>
+            </div>
+            <div class="bg-white/[.50] p-5 px-10">
+                <h3 class="text-3xl font-semibold mb-=5 text-center">
+                    台北 TAIPEI
+                </h3>
+                <img src="images/taipei.png" alt="" class="my-5">
+                <p class="mb-10">平日夜光場：晚上７：４５<br />
+                假日夜光場：晚上６：００</p>
+                <p>地點：內湖極限運動公園（管理中心前）<br />
+                    汽車：公園附屬停車場<br />
+                    機車：公車站牌旁停車格<br />
+                    公車路線：綠16、藍26、552</p>
+            </div>
+        </div>
+        <p class="text-center py-5">現場皆提供：飲用水、護具、LED背包&nbsp&nbsp&nbsp&nbsp&nbsp建議服裝：輕便服裝、平底無氣墊板鞋、個人證件</p>
+    </div>
+    <div class="container max-w-screen-xl mx-auto px-5">
+        <div class="text-3xl mb-10 font-semibold text-center">我們致力傳達安全的滑行，建立友善多元的載具環境。</div>
+        <div class="envoirment grid grid-cols-6 gap-x-16 px-28 mb-10">
+            <div class="text-center">
+                <div class="border rounded-full bg-white min-h-50 pt-[100%] relative">
+                    <img src="images/icon_01.png" alt="" class="absolute inset-1/2 translate-y-[-50%] translate-x-[-50%] w-[70%]">
+                </div>
+                <p class="my-3">文化認識</p>
+            </div>
+            <div class="text-center">
+                <div class="border rounded-full bg-white min-h-50 pt-[100%] relative">
+                    <img src="images/icon_02.png" alt="" class="absolute inset-1/2 translate-y-[-50%] translate-x-[-50%] w-[70%]">
+                </div>
+                <p class="my-3">裝備介紹</p>
+            </div>
+            <div class="text-center">
+                <div class="border rounded-full bg-white min-h-50 pt-[100%] relative">
+                    <img src="images/icon_03.png" alt="" class="absolute inset-1/2 translate-y-[-50%] translate-x-[-50%] w-[70%]">
+                </div>
+                <p class="my-3">速度操控</p>
+            </div>
+            <div class="text-center">
+                <div class="border rounded-full bg-white min-h-50 pt-[100%] relative">
+                    <img src="images/icon_04.png" alt="" class="absolute inset-1/2 translate-y-[-50%] translate-x-[-50%] w-[70%]">
+                </div>
+                <p class="my-3">轉彎技巧</p>
+            </div>
+            <div class="text-center">
+                <div class="border rounded-full bg-white min-h-50 pt-[100%] relative">
+                    <img src="images/icon_05.png" alt="" class="absolute inset-1/2 translate-y-[-50%] translate-x-[-50%] w-[70%]">
+                </div>
+                <p class="my-3">練習技術</p>
+            </div>
+            <div class="text-center">
+                <div class="border rounded-full bg-white min-h-50 pt-[100%] relative">
+                    <img src="images/icon_06.png" alt="" class="absolute inset-1/2 translate-y-[-50%] translate-x-[-50%] w-[70%]">
+                </div>
+                <p class="my-3">暢快滑行</p>
+            </div>
+           
+        </div>
+        <!-- 魅力 -->
+        <div class="charm text-center bg-cover py-10 text-white py-28 mb-10 flex justify-center flex-col" style="background-image: url('images/charmBg.png');">
+            <h3 class="text-3xl font-semibold my-5 mb-3"> 獨有KRUZE PARTY魅力</h3>
+            <p class="mb-16">KRUZE WITHOUT LIMIT！</p>
+            <div class="grid grid-cols-2 max-w-[80%] mx-auto">
+                <div class="flex mb-10 flex-row flex-wrap">
+                    <img src="images/dance.png" alt="" class="w-16 mr-3">
+                    <div class="border-2 border-white p-3 bg-white/[.30] w-auto">
+                        <p>視聽雙重氛圍享受暢行</p>
+                    </div>
+                </div>
+                <div class="flex mb-10">
+                    <img src="images/dance.png" alt="" class="w-16 mr-3">
+                    <div class="border-2 border-white p-3 bg-white/[.30] w-auto">
+                        <p>個人LED 炫彩夜光背包</p>
+                    </div>
+                </div>
+                <div class="flex mb-10">
+                    <img src="images/dance.png" alt="" class="w-16 mr-3">
+                    <div class="border-2 border-white p-3 bg-white/[.30] w-auto">
+                        <p>BOSE音響超Chill</p>
+                    </div>
+                </div>
+                <div class="flex mb-10">
+                    <img src="images/dance.png" alt="" class="w-16 mr-3">
+                    <div class="border-2 border-white p-3 bg-white/[.30] w-auto">
+                        <p>專業指導 一次就上手</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <!-- 預約 -->
+        <div class="reversatiton px-16 mb-10">
+            <img src="images/res.png" alt="">
+        </div>
+    </div>
+    <!-- 選擇原因 -->
+    <div class="bg-cover py-10" style="background-image: url(images/chooseBg.png);">
+        <div class="container max-w-screen-xl mx-auto px-16 text-center">
+            <h3 class="text-3xl font-semibold"> 為什麼要選擇我們?</h3>
+            <div class="p-3 flex flex-wrap justify-between px-16 text-center mt-8 mb-5">
+                <div class="flex-1 text-amber-500">
+                    <img src="images/logo_gray.png" alt="" class="w-48 mx-auto">
+                </div>
+                <div class="flex-1 font-semibold"></div>
+                <div class="flex-1 font-semibold text-2xl">別家</div>
+            </div>
+            <ul class="reasons_group mb-8">
+                <li class="border-amber-500 border-2 rounded-full bg-white/[.60] p-3 flex flex-wrap justify-between px-16 text-center mb-5">
+                    <div class="flex-1 text-amber-500">2.5個小時</div>
+                    <div class="flex-1 font-semibold">時間</div>
+                    <div class="flex-1">1個小時</div>
+                </li>
+                <li class="border-amber-500 border-2 rounded-full bg-white/[.60] p-3 flex flex-wrap justify-between px-16 text-center mb-5">
+                    <div class="flex-1 text-amber-500">河堤步道可看風景紓壓</div>
+                    <div class="flex-1 font-semibold">環境</div>
+                    <div class="flex-1">時間有限無法暢快滑行</div>
+                </li>
+                <li class="border-amber-500 border-2 rounded-full bg-white/[.60] p-3 flex flex-wrap justify-between px-16 text-center mb-5">
+                    <div class="flex-1 text-amber-500">1000可全額折抵滑板費用</div>
+                    <div class="flex-1 font-semibold">價格</div>
+                    <div class="flex-1">$700-$1000不等 不折抵購買金額</div>
+                </li>
+                <li class="border-amber-500 border-2 rounded-full bg-white/[.60] p-3 flex flex-wrap justify-between px-16 text-center mb-5">
+                    <div class="flex-1 text-amber-500">記錄拍照及動態攝影另贈茶水點心</div>
+                    <div class="flex-1 font-semibold">服務</div>
+                    <div class="flex-1">無</div>
+                </li>
+                <li class="border-amber-500 border-2 rounded-full bg-white/[.60] p-3 flex flex-wrap justify-between px-16 text-center mb-5">
+                    <div class="flex-1 text-amber-500">保證學會</div>
+                    <div class="flex-1 font-semibold">保證</div>
+                    <div class="flex-1">無</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
