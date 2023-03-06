@@ -7,13 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kurzer</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </head>
 
 <body>
 
     <div class="isolate relative heroImg">
-
+        <!-- nav -->
         <div class="px-6 pt-6 lg:px-8">
             <nav class="flex items-center justify-between" aria-label="Global">
                 <div class="flex lg:flex-1">
@@ -92,57 +97,35 @@
                 </div>
             </div> -->
         </div>
-        <main>
-            <div class="relative px-6 lg:px-8">
-                <div class="mx-auto  container px-3-xl py-32 sm:py-48 lg:py-56 grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div></div>
-                    <div class="text-center">
-                        <h1 class="text-4xl font-bold tracking-tight  sm:text-6xl  text-white">文字文字文字文字</h1>
+        <div class="relative px-6 lg:px-8">
+            <div class="mx-auto  container px-3-xl py-32 sm:py-48 lg:py-56 ">
+                <div class=" text-white text-left">
+                    <h1 class="tex-4xl font-semibold tracking-tight  sm:text-2xl mb-3">
+                        kruze without limit<br />
+                        體驗城市滑行樂趣，盡情探索街頭巷尾！
+                    </h1>
+                    <h2>享受自由隨心，加速、無限玩法，簡單易學，不受地形限制，讓你感受滑行的獨特魅力</h2>
 
-                        <div class="mt-10 flex items-center justify-center gap-x-6">
-                            <a href="#"
-                                class="rounded-md px-3.5 py-1.5 text-base text-white border border-white rounded-full">瞭解更多 〉</a>
-                            <a href="#"
-                                class="rounded-md px-3.5 py-1.5 text-base text-white border border-white rounded-full">立即購買 〉</a>
-                        </div>
+                    <div class="mt-10 flex items-center justify-start gap-x-6">
+                        <a href="#"
+                            class=" px-3.5 py-1.5 text-base bg-white text-black text-center border border-white rounded-full">瞭解更多
+                            〉</a>
+                        <a href="#" class=" px-3.5 py-1.5 text-base text-white border border-white rounded-full">立即購買
+                            〉</a>
                     </div>
                 </div>
+            </div>
 
-            </div>
-        </main>
-    </div>
-    <div id="section1" class="container px-3 grid grid-cols-1 md:grid-cols-3 mx-auto my-24 gap-8">
-        <div class="flex flex-nowrap">
-            <div class="w-20 flex-none">
-                <img src="images/icon_1.png" alt="" class="w-full">
-            </div>
-            <div class="ml-3 flex-initial">
-                <h4 class="text-lg font-bold">堅固耐用</h4>
-                <p>Wowg滑板經過精心設計,可完美使用多年。</p>
-            </div>
-        </div>
-        <div class="flex flex-nowrap">
-            <div class="w-20 flex-none">
-                <img src="images/icon_1.png" alt="" class="w-full">
-            </div>
-            <div class="ml-3 flex-initial">
-                <h4 class="text-lg font-bold">本地運送</h4>
-                <p>從美國、德國、加拿大、澳大利亞和中國的當地倉庫快速發貨。</p>
-            </div>
-        </div>
-        <div class="flex flex-nowrap">
-            <div class="w-20 flex-none">
-                <img src="images/icon_1.png" alt="" class="w-full">
-            </div>
-            <div class="ml-3 flex-initial">
-                <h4 class="text-lg font-bold">365天保修</h4>
-                <p>我們為大多數滑板提供180到270天的保修，為特殊版本提供365天的保修</p>
-            </div>
         </div>
     </div>
-    <div id="section2" class="container px-3 mx-auto mt-24">
-        <h3 class="text-4xl font-bold text-center mb-10 mt-24">KRUZER精選商品</h3>
-        <div class="grid md:grid-cols-3  grid-cols-2 mx-auto md:gap-4 gap-2">
+    <div id="section1" class="container px-3 mx-auto mt-16">
+        <div class="text-center mb-10">
+            <h3 class="my-10 text-4xl font-semibold">KRUZER K2</h3>
+            <p>無論你是尋找城市中的隱秘角落、探索新的文化體驗、<br />
+                還是享受快速通勤的便利，K2都能成為你生活中的最佳夥伴。</p>
+        </div>
+
+        <div class="grid grid-cols-2 mx-auto gap-x-12 md:px-24">
             <div class="product-group relative product-group1">
                 <div class="desction absolute inset-0 text-white w-full  py-16 md:px-28 px-3">
                     <h4 class="md:text-3xl mb-5">K2 ELECTRIC
@@ -157,27 +140,40 @@
                     <p>電動滑板</p>
                 </div>
             </div>
-            <div class="product-group relative product-group3">
-                <div class="desction absolute inset-0 text-white w-full  py-16 md:px-28 px-3">
-                    <h4 class="md:text-3xl mb-5">K2 ELECTRIC
-                        SKATEBOARD</h4>
-                    <p>電動滑板</p>
-                </div>
-            </div>
-            <div class="product-group relative product-group3 md:hidden block">
-                <div class="desction absolute inset-0 text-white w-full  py-16 md:px-28 px-3">
-                    <h4 class="md:text-3xl mb-5">K2 ELECTRIC
-                        SKATEBOARD</h4>
-                    <p>電動滑板</p>
-                </div>
-            </div>
+
+
         </div>
-        <div class="my-10 text-center">
-            <a href="" class="px-5 py-3 bg-black text-white max-auto hover:bg-gray-700">查看更多KRUZER商品</a>
+        <div class="my-16 text-center">
+            <a href="" class=" py-5 bg-black text-white max-auto hover:bg-gray-700 px-20">瀏覽更多商品</a>
         </div>
     </div>
-    <div id="section3" class="container px-3  mx-auto">
-        <h3 class="text-4xl font-bold text-center mb-10 mt-24">追蹤我們的instagram</h3>
+    <div id="section3" class="py-16 px-3  mx-auto text-center my-10 bg-gray-100">
+        <h3 class="mb-5 text-4xl font-semibold">超越期待的滑行體驗</h3>
+        <p>Kruzer的用戶們從滑雪高手到滑板達人、甚至是對戶外探索感到興趣的新手。<br />
+            我們舉辦的體驗營不僅帶領大家實際體驗產品的滑行感，更規劃了豐富多樣的滑行路線，<br />
+            讓大家全面體驗滑行的魅力。以下是一些用戶的真實感言：</p>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="images/slider1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/slider2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/slider3.png" alt="">
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div id="section4" class="container px-3  mx-auto text-center my-10 mb-24">
+        <h3 class="text-4xl font-bold text-center mb-10 mt-24">最新動態</h3>
+        <p class="mb-10">追蹤我們的Instagram帳號，隨時掌握最新的活動訊息、<br />
+            體驗營報名資訊以及產品新訊，讓你不再錯過任何滑行體驗的機會！</p>
         <div class="ig-group grid gap-4 md:grid-cols-4 grid-cols-2">
             <img src="images/ig_img1.png" alt="">
             <img src="images/ig_img2.png" alt="">
@@ -189,321 +185,7 @@
             <img src="images/ig_img8.png" alt="" class="hidden md:block">
         </div>
         <div class="mt-10 text-center">
-            <a href="" class="px-5 py-3 bg-black text-white max-auto hover:bg-gray-700">查看更多KRUZER商品</a>
-        </div>
-    </div>
-    <div id="section4" class="container px-3  mx-auto mt-24 mb-24">
-        <h3 class="text-center text-4xl mb-24 mt-12 font-bold">KRUZER的客戶反饋</h3>
-        <div class="grid md:grid-cols-2 grid-cols-1">
-            <div class="avator-group mb-5 flex">
-                <div class="avator-info md:w-40 w-28 text-center">
-                    <div class="avator-pic rounded-full mx-auto overflow-hidden mb-2 md:w-24 md:h-24 w-12 h-12 relative bg-gray-200">
-                        <img src="images/default-user-image.png" alt="" class="">
-                    </div>
-                    Helen
-                </div>
-                <div class="avator-comment relative flex-auto border-slate-200 border py-3 px-5 md:ml-5 ml-2 flex flex-col">
-                    <div class="rating flex flex-wrap justify-between flex-1 items-center">
-                        <h5 class="font-bold">很棒的體驗</h5>
-                        <div class="flex items-center stars">
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>First star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Second star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Third star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Fourth star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Fourth star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div>
-                    <p class="flex-1">教學清楚 教練都很有耐心！謝謝～很好玩</p>
-                </div>
-            </div>
-            <div class="avator-group mb-5 flex">
-                <div class="avator-info md:w-40 w-28 text-center">
-                    <div class="avator-pic rounded-full mx-auto overflow-hidden mb-2 md:w-24 md:h-24 w-12 h-12 relative bg-gray-200">
-                        <img src="images/default-user-image.png" alt="" class="">
-                    </div>
-                    Helen
-                </div>
-                <div class="avator-comment relative flex-auto border-slate-200 border py-3 px-5 md:ml-5 ml-2 flex flex-col">
-                    <div class="rating flex flex-wrap justify-between flex-1 items-center">
-                        <h5 class="font-bold">很棒的體驗</h5>
-                        <div class="flex items-center stars">
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>First star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Second star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Third star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Fourth star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Fourth star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div>
-                    <p class="flex-1">教學清楚 教練都很有耐心！謝謝～很好玩</p>
-                </div>
-            </div>
-            <div class="avator-group mb-5 flex">
-                <div class="avator-info md:w-40 w-28 text-center">
-                    <div class="avator-pic rounded-full mx-auto overflow-hidden mb-2 md:w-24 md:h-24 w-12 h-12 relative bg-gray-200">
-                        <img src="images/default-user-image.png" alt="" class="">
-                    </div>
-                    Helen
-                </div>
-                <div class="avator-comment relative flex-auto border-slate-200 border py-3 px-5 md:ml-5 ml-2 flex flex-col">
-                    <div class="rating flex flex-wrap justify-between flex-1 items-center">
-                        <h5 class="font-bold">很棒的體驗</h5>
-                        <div class="flex items-center stars">
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>First star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Second star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Third star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Fourth star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Fourth star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div>
-                    <p class="flex-1">教學清楚 教練都很有耐心！謝謝～很好玩</p>
-                </div>
-            </div>
-            <div class="avator-group mb-5 flex">
-                <div class="avator-info md:w-40 w-28 text-center">
-                    <div class="avator-pic rounded-full mx-auto overflow-hidden mb-2 md:w-24 md:h-24 w-12 h-12 relative bg-gray-200">
-                        <img src="images/default-user-image.png" alt="" class="">
-                    </div>
-                    Helen
-                </div>
-                <div class="avator-comment relative flex-auto border-slate-200 border py-3 px-5 md:ml-5 ml-2 flex flex-col">
-                    <div class="rating flex flex-wrap justify-between flex-1 items-center">
-                        <h5 class="font-bold">很棒的體驗</h5>
-                        <div class="flex items-center stars">
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>First star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Second star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Third star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Fourth star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Fourth star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div>
-                    <p class="flex-1">教學清楚 教練都很有耐心！謝謝～很好玩</p>
-                </div>
-            </div>
-            <div class="avator-group mb-5 flex">
-                <div class="avator-info md:w-40 w-28 text-center">
-                    <div class="avator-pic rounded-full mx-auto overflow-hidden mb-2 md:w-24 md:h-24 w-12 h-12 relative bg-gray-200">
-                        <img src="images/default-user-image.png" alt="" class="">
-                    </div>
-                    Helen
-                </div>
-                <div class="avator-comment relative flex-auto border-slate-200 border py-3 px-5 md:ml-5 ml-2 flex flex-col">
-                    <div class="rating flex flex-wrap justify-between flex-1 items-center">
-                        <h5 class="font-bold">很棒的體驗</h5>
-                        <div class="flex items-center stars">
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>First star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Second star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Third star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Fourth star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Fourth star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div>
-                    <p class="flex-1">教學清楚 教練都很有耐心！謝謝～很好玩</p>
-                </div>
-            </div>
-            <div class="avator-group mb-5 flex">
-                <div class="avator-info md:w-40 w-28 text-center">
-                    <div class="avator-pic rounded-full mx-auto overflow-hidden mb-2 md:w-24 md:h-24 w-12 h-12 relative bg-gray-200">
-                        <img src="images/default-user-image.png" alt="" class="">
-                    </div>
-                    Helen
-                </div>
-                <div class="avator-comment relative flex-auto border-slate-200 border py-3 px-5 md:ml-5 ml-2 flex flex-col">
-                    <div class="rating flex flex-wrap justify-between flex-1 items-center">
-                        <h5 class="font-bold">很棒的體驗</h5>
-                        <div class="flex items-center stars">
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>First star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Second star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Third star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Fourth star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                            <svg aria-hidden="true" class="w-6 h-6 text-yellow-400" fill="currentColor"
-                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Fourth star</title>
-                                <path
-                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                                </path>
-                            </svg>
-                        </div>
-                    </div>
-                    <p class="flex-1">教學清楚 教練都很有耐心！謝謝～很好玩</p>
-                </div>
-            </div>
-        </div>
-        <div class="my-10 text-center">
-            <a href="" class="px-5 py-3 bg-black text-white max-auto hover:bg-gray-700">查看更多反饋內容</a>
+            <a href="" class="px-16 py-5 bg-black text-white max-auto hover:bg-gray-700">查看更多KRUZER商品</a>
         </div>
     </div>
     <footer id="footer" class="bg-black text-white text-center py-10">
@@ -599,7 +281,7 @@
         <div class="footer_footer">
             <div class="copyright">
                 <span>Copyright ©</span>
-                <a href= "/kruzer">KRUZER 酷行科技</a>
+                <a href="/kruzer">KRUZER 酷行科技</a>
                 <span>All Rights Reserved. Designed by</span>
                 <a href="https://www.cyberbiz.io?utm_source=poweredbycyberbiz" target="_blank"
                     title="Designed by CYBERBIZ"> CYBERBIZ</a>.
@@ -608,5 +290,22 @@
             </div>
         </div>
     </footer>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            // autoHeight: true,
+            slidesPerView: 3,
+            spaceBetween: 30,
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+
+    </script>
 </body>
+
 </html>
