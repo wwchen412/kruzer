@@ -89,15 +89,15 @@
     </div>
     <div class="eventHero relative">
         <img src="images/heroImg.png" alt="">
-        <div class="title text-white flex absolute z-1 inset-0 flex-wrap flex-col justify-center items-center">
-            <h2 class="text-4xl font-semibold mb-3">融合了傳統滑板和現代科技的運動</h2>
-            <h4>簡單上手的課程，讓你短時間內輕鬆掌握技巧，讓你享受無限滑行kruzing的樂趣</h4>
+        <div class="title text-white flex absolute z-1 inset-0 flex-wrap flex-col justify-center items-center px-3">
+            <h2 class="md:text-4xl text-2xl font-semibold mb-3">融合了傳統滑板和現代科技的運動</h2>
+            <h4 class="md:max-w-full max-w-[70%] text-center">簡單上手的課程，讓你短時間內輕鬆掌握技巧，讓你享受無限滑行kruzing的樂趣</h4>
         </div>
     </div>
     <div class="container max-w-screen-xl mx-auto px-5">
         <div class="bg-white p-8 my-5 text-center">
-            <div class="grid grid-cols-2 gap-x-8">
-                <div class="text-white relative">
+            <div class="grid md:grid-cols-2 gap-x-8">
+                <div class="text-white relative mb-5">
                     <img src="images/snow.png" alt="">
                     <p class="text-3xl text-center absolute inset-0 flex items-center justify-center">不需要出國到雪山</p>
                 </div>
@@ -109,29 +109,51 @@
             <h3 class="text-3xl mt-5 font-semibold">讓整座城市成為你的運動場!</h3>
             <p>實現隨時隨地都能享受無限滑行的快感與魅力</p>
         </div>
-        <div class="grid grid-cols-3 py-20 px-16 gap-x-12 bg-cover min-h-screen felx items-center"
+        <!-- 六大特色 -->
+        <div class="md:grid md:grid-cols-3 flex flex-wrap md:py-20 py-5 md:px-16 px-3 md:gap-x-12 gap-x-3 bg-cover md:min-h-screen felx items-center bg-center text-white"
             style="background-image: url('images/6Point.png');">
-            <ul class="point_group text-white">
+            <ul class="point_group text-white md:block hidden">
                 <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">全程有專業教練陪同</li>
                 <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">無需經驗又最好 上手的板類體驗</li>
                 <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">2.5小時讓你新手變高手 保證學會</li>
             </ul>
-            <div class="px-5 p-3">
+            <div class="px-5 p-3 md:block hidden">
                 <img src="images/6PointTitle.png" alt="" class="m-auto max-w-full w-full">
                 <p class="text-center text-white my-10">KRUZER在2019年率先在台灣業界<br />
                     舉辦獨創性電動滑板的「體驗式教學」
                 </p>
             </div>
-            <ul class="point_group text-white">
-                <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">全程有專業教練陪同</li>
+            <ul class="point_group text-white md:block hidden">
+                <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">從頭到腳全套護具裝備</li>
                 <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">無需經驗又最好 上手的板類體驗</li>
                 <li class="p-5 border-2 border-white bg-white/[.15] text-center mb-10">2.5小時讓你新手變高手 保證學會</li>
             </ul>
+            <!-- mobile -->
+            <div class="md:hidden">
+                <img src="images/6PointTitle.png" alt="" class="m-auto max-w-[150px] w-full mb-3 md:hidden block">
+            <div class=" grid gap-x-3 grid-cols-3 w-full flex">
+                <div class="p-1 border-2 border-white bg-white/[.15] text-center mb-3 text-xs">全程有專業教練陪同</div>
+                <div class="p-1 border-2 border-white bg-white/[.15] text-center mb-3 text-xs">採用最高規格「K2」新一代電動滑板</div>
+                <div class="p-1 border-2 border-white bg-white/[.15] text-center mb-3 text-xs">上手的板類體驗</div>
+                <div class="p-1 border-2 border-white bg-white/[.15] text-center mb-3 text-xs">從頭到腳全套護具裝備</div>
+                <div class="p-1 border-2 border-white bg-white/[.15] text-center mb-3 text-xs">2.5小時讓你新手
+                    變高手 保證學會
+                    </div>
+                <div class="p-1 border-2 border-white bg-white/[.15] text-center mb-3 text-xs">不用出國就可以享
+                    受路上滑雪的感覺
+                    </div>
+            </div>
+            <div class="text-center text-xs px-5 py-3" style="background-image:linear-gradient(to right, rgba(0,0,0,.1) ,rgba(0,0,0, 0.5),rgba(0,0,0,.1))">KRUZER在2019年率先在台灣業界
+                舉辦獨創性電動滑板的「體驗式教學」
+                </div>
+            </div>
+            
         </div>
+        
         <!-- 場次 -->
         <div class="bg-white p-8 my-5 text-center">
-            <div class="grid grid-cols-2 gap-x-8">
-                <div class="text-white relative">
+            <div class="grid md:grid-cols-2 gap-x-8">
+                <div class="text-white relative mb-5">
                     <img src="images/sunsetEvent.png" alt="">
                     <p class="text-3xl text-center absolute inset-0 flex items-center justify-center">台中夕陽場</p>
                 </div>
@@ -146,10 +168,10 @@
 
     </div>
     <!-- 體驗活動 -->
-    <div class="experience my-10 px-20 bg-cover py-10" style="background-image: url('images/experienceBg.png');">
+    <div class="experience my-10 md:px-20 px-10 bg-cover py-10" style="background-image: url('images/experienceBg.png');">
         <h3 class="text-center text-3xl font-semibold mb-5">KRUZER無限滑行2.5H體驗</h3>
         <p class="text-center">我們提供多種活動時段和場所以供選擇，你能夠更加靈活地安排時間和地點</p>
-        <div class="grid grid-cols-2 gap-x-12 mt-10">
+        <div class="grid md:grid-cols-2 gap-y-6 gap-x-12 mt-10">
             <div class="bg-white/[.50] p-5 px-10">
                 <h3 class="text-3xl font-semibold mb-=5 text-center">
                     台北 TAIPEI
@@ -164,22 +186,21 @@
             </div>
             <div class="bg-white/[.50] p-5 px-10">
                 <h3 class="text-3xl font-semibold mb-=5 text-center">
-                    台北 TAIPEI
+                    台中 TAICHUNG
                 </h3>
-                <img src="images/taipei.png" alt="" class="my-5">
-                <p class="mb-10">平日夜光場：晚上７：４５<br />
-                    假日夜光場：晚上６：００</p>
-                <p>地點：內湖極限運動公園（管理中心前）<br />
-                    汽車：公園附屬停車場<br />
-                    機車：公車站牌旁停車格<br />
-                    公車路線：綠16、藍26、552</p>
+                <img src="images/taichung.png" alt="" class="my-5">
+                <p class="mb-10">平日夜光場：晚上７：３０<br />
+                    假日夕陽場：晚上４：００</p>
+                <p>地點：補鼎仔公園（北屯區）<br />
+                    停車：路邊停車格皆可<br />
+                    捷運：北屯總站</p>
             </div>
         </div>
         <p class="text-center py-5">現場皆提供：飲用水、護具、LED背包&nbsp&nbsp&nbsp&nbsp&nbsp建議服裝：輕便服裝、平底無氣墊板鞋、個人證件</p>
     </div>
     <div class="container max-w-screen-xl mx-auto px-5">
         <div class="text-3xl mb-10 font-semibold text-center">我們致力傳達安全的滑行，建立友善多元的載具環境。</div>
-        <div class="envoirment grid grid-cols-6 gap-x-16 px-28 mb-10">
+        <div class="envoirment grid md:grid-cols-6 grid-cols-3 md:gap-x-16 gap-x-8 gap-y-8 md:px-28 mb-10">
             <div class="text-center">
                 <div class="border rounded-full bg-white min-h-50 pt-[100%] relative">
                     <img src="images/icon_01.png" alt=""
@@ -225,31 +246,41 @@
 
         </div>
         <!-- 魅力 -->
-        <div class="charm text-center bg-cover py-10 text-white py-28 mb-10 flex justify-center flex-col"
+        <div class="charm text-center bg-cover py-10 text-white md:py-28 py-10 mb-10 flex justify-center flex-col"
             style="background-image: url('images/charmBg.png');">
-            <h3 class="text-3xl font-semibold my-5 mb-3"> 獨有KRUZE PARTY魅力</h3>
-            <p class="mb-16">KRUZE WITHOUT LIMIT！</p>
-            <div class="flex flex-wrap px-10 max-w-[80%] mx-auto">
-                <div class="flex mb-10 flex-row justify-between w-1/2 px-5">
-                    <img src="images/dance.png" alt="" class="w-20 mr-5">
+            <h3 class="md:text-3xl text-xl font-semibold my-5 mb-3">獨有KRUZE PARTY魅力</h3>
+            <p class="md:mb-16 mb-8">KRUZE WITHOUT LIMIT！</p>
+            <div class="flex flex-wrap px-10 md:max-w-[80%] mx-auto">
+                <div class="flex mb-10 flex-row justify-between md:w-1/2 w-full px-5 items-center">
+                    <div class="mr-5">
+                        <img src="images/dance.png" alt="" class="md:w-20  md:max-w-full max-w-[30px] mr-5">
+                    </div>
                     <div class="border-2 border-white p-3 bg-white/[.30] w-full flex items-center justify-center">
                         <p>視聽雙重氛圍享受暢行</p>
                     </div>
                 </div>
-                <div class="flex mb-10 flex-row justify-between w-1/2 px-5">
-                    <img src="images/school-book-bag.png" alt="" class="w-20 mr-5">
+                <div class="flex mb-10 flex-row justify-between md:w-1/2 w-full px-5 items-center">
+                    <div class="mr-5">
+                        <img src="images/school-book-bag.png" alt="" class="md:w-20  md:max-w-full max-w-[30px] mr-5">
+                    </div>
+                    
                     <div class="border-2 border-white p-3 bg-white/[.30] w-full flex items-center justify-center">
                         <p>個人LED 炫彩夜光背包</p>
                     </div>
                 </div>
-                <div class="flex mb-10 flex-row justify-between w-1/2 px-5">
-                    <img src="images/music-note.png" alt="" class="w-20 mr-5">
+                <div class="flex mb-10 flex-row justify-between md:w-1/2 w-full px-5 items-center">
+                    <div class="mr-5">
+                        <img src="images/music-note.png" alt="" class="md:w-20  md:max-w-full max-w-[30px] mr-5">
+                    </div>
+                    
                     <div class="border-2 border-white p-3 bg-white/[.30] w-full flex items-center justify-center">
                         <p>BOSE音響超Chill BGM</p>
                     </div>
                 </div>
-                <div class="flex mb-10 flex-row justify-between w-1/2 px-5">
-                    <img src="images/skateboarder.png" alt="" class="w-20 mr-5">
+                <div class="flex mb-10 flex-row justify-between md:w-1/2 w-full px-5 items-center">
+                    <div class="mr-5">
+                        <img src="images/skateboarder.png" alt="" class="md:w-20  md:max-w-full max-w-[30px] mr-5">
+                    </div>
                     <div class="border-2 border-white p-3 bg-white/[.30] w-full flex items-center justify-center">
                         <p>專業指導 一次就上手</p>
                     </div>
@@ -263,42 +294,42 @@
     </div>
     <!-- 選擇原因 -->
     <div class="bg-cover py-10" style="background-image: url(images/chooseBg.png);">
-        <div class="container max-w-screen-xl mx-auto px-16 text-center">
-            <h3 class="text-3xl font-semibold"> 為什麼要選擇我們?</h3>
-            <div class="p-3 flex flex-wrap justify-between px-16 text-center mt-8 mb-5">
+        <div class="container max-w-screen-xl mx-auto md:px-16 px-5 text-center">
+            <h3 class="text-3xl font-semibold">為什麼要選擇我們?</h3>
+            <div class="p-3 flex flex-wrap items-center justify-between md:px-16 px-5 text-center mt-8 mb-5">
                 <div class="flex-1 text-amber-500">
-                    <img src="images/logo_gray.png" alt="" class="w-48 mx-auto">
+                    <img src="images/logo_gray.png" alt="" class="md:w-48 mx-auto w-full">
                 </div>
                 <div class="flex-1 font-semibold"></div>
                 <div class="flex-1 font-semibold text-2xl">別家</div>
             </div>
             <ul class="reasons_group mb-8">
                 <li
-                    class="border-amber-500 border-2 rounded-full bg-white/[.75] p-3 flex flex-wrap justify-between px-16 text-center mb-5">
+                    class="border-amber-500 border-2 rounded-full bg-white/[.75] p-3 flex flex-wrap items-center justify-between md:px-16 px-5 text-center mb-5">
                     <div class="flex-1 text-amber-500">2.5個小時</div>
                     <div class="flex-1 font-semibold">時間</div>
                     <div class="flex-1">1個小時</div>
                 </li>
                 <li
-                    class="border-amber-500 border-2 rounded-full bg-white/[.75] p-3 flex flex-wrap justify-between px-16 text-center mb-5">
+                    class="border-amber-500 border-2 rounded-full bg-white/[.75] p-3 flex flex-wrap items-center justify-between md:px-16 px-5 text-center mb-5">
                     <div class="flex-1 text-amber-500">河堤步道可看風景紓壓</div>
                     <div class="flex-1 font-semibold">環境</div>
                     <div class="flex-1">時間有限無法暢快滑行</div>
                 </li>
                 <li
-                    class="border-amber-500 border-2 rounded-full bg-white/[.75] p-3 flex flex-wrap justify-between px-16 text-center mb-5">
+                    class="border-amber-500 border-2 rounded-full bg-white/[.75] p-3 flex flex-wrap items-center justify-between md:px-16 px-5 text-center mb-5">
                     <div class="flex-1 text-amber-500">1000可全額折抵滑板費用</div>
                     <div class="flex-1 font-semibold">價格</div>
                     <div class="flex-1">$700-$1000不等 不折抵購買金額</div>
                 </li>
                 <li
-                    class="border-amber-500 border-2 rounded-full bg-white/[.75] p-3 flex flex-wrap justify-between px-16 text-center mb-5">
+                    class="border-amber-500 border-2 rounded-full bg-white/[.75] p-3 flex flex-wrap items-center justify-between md:px-16 px-5 text-center mb-5">
                     <div class="flex-1 text-amber-500">記錄拍照及動態攝影另贈茶水點心</div>
                     <div class="flex-1 font-semibold">服務</div>
                     <div class="flex-1">無</div>
                 </li>
                 <li
-                    class="border-amber-500 border-2 rounded-full bg-white/[.75] p-3 flex flex-wrap justify-between px-16 text-center mb-5">
+                    class="border-amber-500 border-2 rounded-full bg-white/[.75] p-3 flex flex-wrap items-center justify-between md:px-16 px-5 text-center mb-5">
                     <div class="flex-1 text-amber-500">保證學會</div>
                     <div class="flex-1 font-semibold">保證</div>
                     <div class="flex-1">無</div>
@@ -307,11 +338,11 @@
         </div>
     </div>
     <!-- 網紅 -->
-    <div class="container max-w-screen-xl mx-auto px-16 text-center flex flex-wrap flex-row my-10">
-        <div class="w-7/12 pr-6">
+    <div class="container max-w-screen-xl mx-auto md:px-16 px-5 text-center flex flex-wrap flex-row my-10">
+        <div class="w-7/12 md:pr-6 pr-3">
             <img src="images/idol.png" alt="">
         </div>
-        <div class="grid grid-cols-2 gap-x-6 gap-y-6 w-5/12">
+        <div class="grid grid-cols-2 md:gap-x-6 gap-3 md:gap-y-6 w-5/12">
             <img src="images/idol_1.png" alt="">
             <img src="images/idol_2.png" alt="">
             <img src="images/idol_3.png" alt="">
@@ -334,60 +365,60 @@
             <ul>
                 <li class="flex flex-wrap">
                     <img src="images/comment_1.png" alt="" class="w-1/2 z-10">
-                    <div class="text  w-1/2 flex items-center p-3 px-16">
+                    <div class="text  w-1/2 flex items-center p-3 md:px-16 px-5">
                         <div class="border-2 border-amber-500 rounded-xl overflow-hidden w-full">
-                            <div class="bg-amber-500 text-xl py-5 text-white">抱著解饞的心情來體驗</div>
-                            <div class="text-amber-500 text-xl py-5 ">滑完之後完全超出預期</div>
+                            <div class="bg-amber-500 md:text-xl md:py-5 py-2 text-white">抱著解饞的心情來體驗</div>
+                            <div class="text-amber-500 md:text-xl md:py-5 py-2 ">滑完之後完全超出預期</div>
                         </div>
 
                     </div>
                 </li>
-                <li class="flex flex-wrap mt-[-2rem]">
-                    <div class="text w-1/2 flex items-center p-3 px-16">
+                <li class="flex flex-wrap md:mt-[-2rem]">
+                    <div class="text w-1/2 flex items-center p-3 md:px-16 px-5">
                         <div class="border-2 border-amber-500 rounded-xl overflow-hidden w-full">
-                            <div class="text-amber-500 text-xl py-5 ">初學者不害怕上路</div>
+                            <div class="text-amber-500 md:text-xl md:py-5 py-2 ">初學者不害怕上路</div>
                         </div>
                     </div>
-                    <img src="images/comment_2.png" alt="" class="w-1/2 ml-[-2rem] z-0">
+                    <img src="images/comment_2.png" alt="" class="w-1/2 md:ml-[-2rem] z-0">
                 </li>
-                <li class="flex flex-wrap mt-[-2rem]">
+                <li class="flex flex-wrap md:mt-[-2rem]">
                     <img src="images/comment_3.png" alt="" class="w-1/2  z-10">
-                    <div class="text w-1/2 flex items-center p-3 px-16">
+                    <div class="text w-1/2 flex items-center p-3 md:px-16 px-5">
                         <div class="border-2 border-amber-500 rounded-xl overflow-hidden w-full">
-                            <div class="text-amber-500 text-xl py-5 ">教學清楚 教練有耐心</div>
+                            <div class="text-amber-500 md:text-xl md:py-5 py-2 ">教學清楚 教練有耐心</div>
                         </div>
                     </div>
                 </li>
-                <li class="flex flex-wrap mt-[-2rem]">
-                    <div class="text w-1/2 flex items-center p-3 px-16">
+                <li class="flex flex-wrap md:mt-[-2rem]">
+                    <div class="text w-1/2 flex items-center p-3 md:px-16 px-5">
                         <div class="border-2 border-amber-500 rounded-xl overflow-hidden w-full">
-                            <div class="text-amber-500 text-xl py-5 ">二刷還是一樣好玩</div>
+                            <div class="text-amber-500 md:text-xl md:py-5 py-2 ">二刷還是一樣好玩</div>
                         </div>
                     </div>
-                    <img src="images/comment_4.png" alt="" class="w-1/2 ml-[-2rem] z-0">
+                    <img src="images/comment_4.png" alt="" class="w-1/2 md:ml-[-2rem] z-0">
                 </li>
-                <li class="flex flex-wrap mt-[-2rem]">
+                <li class="flex flex-wrap md:mt-[-2rem]">
                     <img src="images/comment_5.png" alt="" class="w-1/2 z-10">
-                    <div class="text w-1/2 flex items-center p-3 px-16 mt-5">
+                    <div class="text w-1/2 flex items-center p-3 md:px-16 px-5 mt-5">
                         <div class="border-2 border-amber-500 rounded-xl overflow-hidden w-full">
-                            <div class="bg-amber-500 text-xl py-5 text-white">用滑板止不能滑雪之癢</div>
-                            <div class="text-amber-500 text-xl py-5 ">是個非常棒的體驗活動</div>
+                            <div class="bg-amber-500 md:text-xl md:py-5 py-2 text-white">用滑板止不能滑雪之癢</div>
+                            <div class="text-amber-500 md:text-xl md:py-5 py-2 ">是個非常棒的體驗活動</div>
                         </div>
                     </div>
                 </li>
             </ul>
         </div>
         <!-- 報名場次 -->
-        <div class="booking grid-cols-3 grid my-16 gap-x-6">
-            <div class="flex justify-center flex-col">
+        <div class="booking md:grid-cols-3 md:grid my-16 gap-x-6 px-5 md:px-0">
+            <div class="flex justify-center flex-col mb-5">
                 <h3 class="text-3xl mb-3 font-semibold">還在等什麼?</h3>
                 <p>大家都在體驗的超帥活動</p>
             </div>
-            <div class="px-[15%] py-16 bg-no-repeat bg-contain" style="background-image: url('images/bookingBg.png');">
+            <div class="md:px-[15%]  md:py-16 p-10 bg-no-repeat bg-contain mb-5" style="background-image: url('images/bookingBg.png');">
                 <img src="images/demoTaipei.png" alt="">
                 <a href="" class="p-3 border-2 border-white bg-white/[.40] block my-5 font-semibold text-white text-xl">立即預約</a>
             </div>
-            <div class="px-[15%] py-16 bg-no-repeat bg-contain" style="background-image: url('images/bookingBg.png');">
+            <div class="md:px-[15%]  md:py-16 p-10 bg-no-repeat bg-contain" style="background-image: url('images/bookingBg.png');">
                 <img src="images/demoTaichung.png" alt="">
                 <a href="" class="p-3 border-2 border-white bg-white/[.40] block my-5 font-semibold text-white text-xl">立即預約</a>
             </div>
@@ -396,13 +427,13 @@
 
     </div>
     <!-- youtube -->
-    <div class="text-center bg-cover bg-no-repeat py-16 min-h-[500px] text-white flex items-center" style="background-image: url('images/youtubeBg.png');">
+    <div class="text-center bg-cover bg-no-repeat py-16 md:min-h-[500px] text-white flex items-center px-5" style="background-image: url('images/youtubeBg.png');">
         <div class="container max-w-screen-xl mx-auto">
-            <div class="mb-5 flex flex-wrap flex-row justify-end px-5">
-                <img src="images/logo.png" alt="" class="max-w-[150px] mr-10">
-                <img src="images/youtube.png" alt=""  class="max-w-[150px]">
+            <div class="mb-5 flex flex-wrap flex-row md:justify-end px-5">
+                <img src="images/logo.png" alt="" class="md:max-w-[150px] w-1/2 md:w-full md:mr-10">
+                <img src="images/youtube.png" alt=""  class="md:max-w-[150px]  w-1/2 md:w-full ">
             </div>
-            <h3 class="text-3xl font-semibold text-right">至KRUZER Youtube頻道 觀看體驗活動的魅力吧！</h3>
+            <h3 class="text-3xl font-semibold md:text-right text-center">至KRUZER Youtube頻道 觀看體驗活動的魅力吧！</h3>
         </div>
        
     </div>
