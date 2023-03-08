@@ -1,5 +1,5 @@
 *{
-    /* outline: 1px solid #f00; */
+    /* outline: 1px  solid #f00; */
 }
 .heroImg{
     background: url('./images/20221018-DSC07499\ 1.png') 50% 50% no-repeat;
@@ -60,6 +60,9 @@ img{
 
 }
 
+.swiper{
+    height: 500px;
+}
 .swiper-container {
     width: 100%;
     height: 100%;
