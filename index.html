@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+TC">
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </head>
 
@@ -152,7 +152,7 @@
         <p>Kruzer的用戶們從滑雪高手到滑板達人、甚至是對戶外探索感到興趣的新手。<br />
             我們舉辦的體驗營不僅帶領大家實際體驗產品的滑行感，更規劃了豐富多樣的滑行路線，<br />
             讓大家全面體驗滑行的魅力。以下是一些用戶的真實感言：</p>
-        <div class="swiper">
+        <div class="swiper my-10">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -167,7 +167,7 @@
                 </div>
             </div>
             <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination mt-10"></div>
         </div>
     </div>
     <div id="section4" class="container px-3  mx-auto text-center my-10 mb-24">
@@ -295,13 +295,17 @@
         const swiper = new Swiper('.swiper', {
             // Optional parameters
             direction: 'horizontal',
-            loop: true,
-            autoHeight: true,
-            slidesPerView: 2,
-            spaceBetween: 30,
+            // loop: true,
+            centeredSlides: true,
+            autoWidth:true,
+            // autoHeight: true,
+            slidesPerView: "auto",
+            spaceBetween: 15,
+            initialSlide: 1,
             // If we need pagination
             pagination: {
                 el: '.swiper-pagination',
+                clickable: true
             },
         });
 

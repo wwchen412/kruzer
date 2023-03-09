@@ -1,6 +1,9 @@
 *{
     /* outline: 1px  solid #f00; */
 }
+body{
+    font-family: 'Noto+Sans+TC', serif;
+}
 .heroImg{
     background: url('./images/20221018-DSC07499\ 1.png') 50% 50% no-repeat;
     background-size: cover;
@@ -60,29 +63,15 @@ img{
 
 }
 
-.swiper{
-    height: 500px;
-}
-.swiper-container {
-    width: 100%;
-    height: 100%;
-  }
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .swiper-slide{
+    width: auto!important;
+    margin-right: 15px!important;
+    }
+.swiper-pagination {
+    position: relative !important;
 }
 
-.swiper-slide {
-    width: 50%;
-}
-
-.swiper-slide:nth-child(2n) {
-    width: 80%;
-}
-
-.swiper-slide:nth-child(3n) {
-    width: 40%;
+.swiper-pagination-bullet-active{
+    background: #000 !important;
 }
