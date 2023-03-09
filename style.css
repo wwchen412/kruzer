@@ -2,7 +2,7 @@
     /* outline: 1px  solid #f00; */
 }
 body{
-    font-family: 'Noto+Sans+TC', serif;
+    font-family: 'Noto Sans TC', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .heroImg{
     background: url('./images/20221018-DSC07499\ 1.png') 50% 50% no-repeat;
@@ -18,18 +18,7 @@ img{
 
 }
 
-.product-group1{
-    background-image: url('images/s2_1.png');
-}
-.product-group2{
-    background-image: url('images/s2_2.png');
-}
-.product-group3{
-    background-image: url('images/s2_3.png');
-}
-.product-group4{
-    background-image: url('images/s2_3.png');
-}
+
 .avator-comment::before{
     width: 0;
     height: 0;
@@ -62,12 +51,18 @@ img{
     display: inline-block;
 
 }
+@media screen and (max-width: 768px) {
+    /* .swiper{
+        height: 350px;
+    } */
+}
+@media screen and (min-width: 769px) {
+    .swiper-slide{
+        width: auto!important;
+        margin-right: 15px!important;
+        }
+}
 
-
-  .swiper-slide{
-    width: auto!important;
-    margin-right: 15px!important;
-    }
 .swiper-pagination {
     position: relative !important;
 }
