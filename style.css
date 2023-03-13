@@ -52,15 +52,15 @@ img{
 
 }
 @media screen and (max-width: 768px) {
-    /* .swiper{
-        height: 350px;
-    } */
+    .swiper{
+        max-height: 350px;
+    }
 }
 @media screen and (min-width: 769px) {
-    .swiper-slide{
+    /* .swiper-slide{
         width: auto!important;
         margin-right: 15px!important;
-        }
+        } */
 }
 
 .swiper-pagination {
