@@ -1,123 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KRUZER</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Barlow+Condensed">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Barlow+Condensed"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="px-6 py-3 lg:px-8">
-        <nav class="flex items-center justify-between" aria-label="Global">
-            <div class="flex lg:flex-1">
-                <a href= "/kruzer" class="-m-1.5 p-1.5">
-                    <span class="sr-only">Kruzer</span>
-                    <img class="h-4 max-w-[110px]" src="images/logo_b.png" alt="">
-                </a>
-            </div>
-            <div class="flex lg:hidden">
-                <button type="button"
-                    class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5">
-                    <span class="sr-only">Open main menu</span>
-                    <!-- Heroicon name: outline/bars-3 -->
-                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                    </svg>
-                </button>
-            </div>
-            <div class="hidden lg:flex lg:gap-x-12">
-                <a href="/" class="text-sm font-bold leading-6">首頁</a>
-                <a href="/brandStory " class="text-sm font-bold leading-6">關於我們</a>
-                <a href="/event" class="text-sm font-bold leading-6">體驗頁面</a>
-                <a href="/shop" class="text-sm font-bold leading-6">KRUZER商城</a>
-                <a href="/blog" class="text-sm font-bold leading-6">BLOG</a>
-            </div>
-            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="#" class="rounded-full px-3.5 py-1.5 text-base bg-amber-500 text-white flex">購物車
-                    <img src="images/cart.png" alt="" class="w-4 inline-block">
-                </a>
-            </div>
-        </nav>
+      <nav class="flex items-center justify-between" aria-label="Global">
+        <div class="flex lg:flex-1">
+          <a href="/kruzer" class="-m-1.5 p-1.5">
+            <span class="sr-only">Kruzer</span>
+            <img class="h-4 max-w-[110px]" src="images/logo_b.png" alt="" />
+          </a>
+        </div>
+        <div class="flex lg:hidden">
+          <button
+            type="button"
+            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5"
+          >
+            <span class="sr-only">Open main menu</span>
+            <!-- Heroicon name: outline/bars-3 -->
+            <svg
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a href="/" class="text-sm font-bold leading-6">首頁</a>
+          <a href="/brandStory " class="text-sm font-bold leading-6"
+            >關於我們</a
+          >
+          <a href="/event" class="text-sm font-bold leading-6">體驗頁面</a>
+          <a href="/shop" class="text-sm font-bold leading-6">KRUZER商城</a>
+          <a href="/blog" class="text-sm font-bold leading-6">BLOG</a>
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a
+            href="#"
+            class="rounded-full px-3.5 py-1.5 text-base bg-amber-500 text-white flex"
+            >購物車
+            <img src="images/cart.png" alt="" class="w-4 inline-block" />
+          </a>
+        </div>
+      </nav>
     </div>
     <div id="banner" class="hidden md:block">
-        <img src="images/brandBanner.png" alt="">
+      <img src="images/brandBanner.png" alt="" />
     </div>
     <div class="container mx-auto my-10 md:flex md:px-3 px-0">
-        <div id="menu" class="border-b md:border-r md:border-b-0 md:w-2/12 flex w-full">
-            <ul class="flex md:block mx-auto">
-                <li class="mx-5 my-3 md:pl-3 px-3 border-yellow-400 text-yellow-400  md:border-l-4 border-b-2 md:border-b-0"><a href="/kruzer/brandStory ">品牌故事</a></li>
-                <li class="mx-5 my-3 md:pl-3 px-3 border-transparent  md:border-l-4 border-b-2 md:border-b-0"><a href="/kruzer/contact ">聯絡我們</a></li>
-                <li class="mx-5 my-3 md:pl-3 px-3 border-transparent md:border-l-4 border-b-2 md:border-b-0"><a href="/kruzer/news ">平面媒體</a></li>
-            </ul>
+      <div
+        id="menu"
+        class="border-b md:border-r md:border-b-0 md:w-2/12 flex w-full"
+      >
+        <ul class="flex md:block mx-auto">
+          <li
+            class="mx-5 my-3 md:pl-3 px-3 border-yellow-400 text-yellow-400 md:border-l-4 border-b-2 md:border-b-0"
+          >
+            <a href="/kruzer/brandStory ">品牌故事</a>
+          </li>
+          <li
+            class="mx-5 my-3 md:pl-3 px-3 border-transparent md:border-l-4 border-b-2 md:border-b-0"
+          >
+            <a href="/kruzer/contact ">聯絡我們</a>
+          </li>
+          <li
+            class="mx-5 my-3 md:pl-3 px-3 border-transparent md:border-l-4 border-b-2 md:border-b-0"
+          >
+            <a href="/kruzer/news ">平面媒體</a>
+          </li>
+        </ul>
+      </div>
+      <div id="main" class="flex-auto md:px-10 py-3 md:ml-5 px-0 md:w-10/12">
+        <div id="story" class="my-24 container px-3 mx-auto">
+          <h3 class="text-center text-3xl mb-5">品牌故事</h3>
+          <div class="border-b-4 border-black w-16 mx-auto mb-10"></div>
+          <div class="story_content grid md:grid-cols-2 md:gap-x-20">
+            <div class="mb-10">
+              <img src="images/story.png" alt="" />
+            </div>
+            <div class="leading-8 tracking-wider">
+              KRUZER 來自於英文 "Crusing"的諧音字<br />
+              他的意思可以是為了娛樂在沒有確切目的地的地區航行的行為。<br />
+              或是在任何移動載具上<br />
+              以適中的速度順利移動的一個形容詞。<br />
+              我們希望透過KRUZER將打造一個全新的視界。<br />
+              <br />
+              此外我們致力於分享 "kruzing" 理念<br />
+              必且做出優良設計與最佳的客戶體驗的電動載具。<br />
+              Kruze Without Limit<br />
+              一起突破設限、體驗自由乘風樂趣。<br />
+              <br />
+              KRUZER不只是電動滑板，也是種生活態度，一種生活風格。<br />
+            </div>
+          </div>
         </div>
-        <div id="main" class="flex-auto md:px-10 py-3 md:ml-5 px-0 md:w-10/12">
-            <div id="story" class="my-24 container px-3 mx-auto">
-                <h3 class="text-center text-3xl mb-5">品牌故事</h3>
-                <div class="border-b-4 border-black w-16 mx-auto mb-10"></div>
-                <div class="story_content grid md:grid-cols-2 md:gap-x-20">
-                    <div class=" mb-10">
-                        <img src="images/story.png" alt="">
-                    </div>
-                    <div class="leading-8 tracking-wider">
-                        KRUZER的創立初衷是期望將我們對於電動滑板的熱愛分享給台灣的朋友。<br />
-                        <br />
-                        電動滑板是新世代的產物也是是未來的趨勢，不排除未來十年我們將體驗到漂浮的飛行交通工具，Kruzer的電動滑板擁有超高續航力與首屈一指的規格配置我們要打造一個全新的視界，想像未來的年輕人站在漂浮的電動滑板上，高速的在沿海公路、美麗蜿蜒山徑等等各樣景點穿梭。
-                        <br />
-                        那他們的服裝會是什麼樣的風格？<br />
-                        <br />
-                        揮別以往休閒運動、寬鬆舒適、美式街頭，<br />
-                        以上都是我們要顛覆的傳統形象，朝未來科技趨勢發展。<br />
-                        <br />
-                        KRUZER帶領推出 Asymptomatic
-                        帶原者系列的電動滑板與服飾，創造出適應各種天氣、各種功能，所以我們找了機能工裝設計師品牌Tranzend頂規的機能布料與製程，加上Ionism的設計理念，結合科技、機能與美學，並持續致力於對環境友善的製程，為每位使用者提供舒適感以及適應不同環境的能力。並且具備未來與時尚結合我們KRUZER的獨有的未來感風格。
-                        <br />＃慢時尚 ＃永續意識 ＃機能時裝 ＃科技服飾<br />
-                        <br />
-                        此外我們致力於分享“kruzing”理念，在你最喜愛的私藏kruzing地點與好朋友們一起突破設限、體驗自由乘風樂趣。並且創立了Kruze Krew，一個電動滑板愛好者的交流社群平台。
-                        Kruze
-                        Krew成員經常相約滑板兜風，全台灣都有我們的足跡。
-                        Kruzer不只是電動滑版，它也是種生活態度，一種生活風格。<br />
-                        <br />
-                        It’s A Lifestyle！立即報名參加體驗並加入Kruze Krew行列。
-                    </div>
-                </div>
+        <div id="history" class="my-24 container px-3 mx-auto">
+          <h3 class="text-center text-3xl mb-5">Look book</h3>
+          <div class="border-b-4 border-black w-16 mx-auto mb-10"></div>
+          <div class="text-center max-w-[640px] m-auto px-5 leading-8">
+            揮別以往休閒運動、寬鬆舒適、美式街頭，<br />
+            以上都是我們要顛覆的傳統形象，朝未來科技趨勢發展。<br />
+            <br />
+            KRUZER帶領推出 Asymptomatic
+            帶原者系列的電動滑板與服飾，創造出適應各種天氣、各種功能，所以我們找了機能工裝設計師品牌Tranzend頂規的機能布料與製程，加上Ionism的設計理念，結合科技、機能與美學，並持續致力於對環境友善的製程，為每位使用者提供舒適感以及適應不同環境的能力。並且具備未來與時尚結合我們KRUZER的獨有的未來感風格。<br />
+            ＃慢時尚 ＃永續意識 ＃機能時裝 ＃科技服飾
+          </div>
+          <div class="grid md:grid-cols-5 gap-3 my-10 grid-cols-2">
+            <img src="images/lookbook1.png" alt="">
+            <img src="images/lookbook2.png" alt="" class="hidden md:block">
+            <img src="images/lookbook3.png" alt="" class="hidden md:block">
+            <img src="images/lookbook4.png" alt="" class="hidden md:block">
+            <img src="images/lookbook5.png" alt="" class="hidden md:block">
+            <div class="grid grid-cols-2 gap-3 md:hidden"> 
+                <img src="images/lookbook2.png" alt="">
+                <img src="images/lookbook3.png" alt="">
+                <img src="images/lookbook4.png" alt="">
+                <img src="images/lookbook5.png" alt="">
             </div>
-            <div id="history" class="my-24 container px-3 mx-auto">
-                <h3 class="text-center text-3xl mb-5">發展歷程</h3>
-                <div class="border-b-4 border-black w-16 mx-auto mb-10"></div>
-                <div class="story_content grid md:grid-cols-2 md:gap-x-20">
-                    <div class="leading-8 tracking-wider">
-                    </div>
-                </div>
-            </div>
-            <div id="show" class="my-24 bg-zinc-800 py-24">
-                <div class="container max-w-screen-xl mx-auto md:px-0 px-10">
-                    <img src="images/show.png" alt="" class="md:block hidden">
-                    <img src="images/history_m2.png" alt="" class="md:hidden block mb-5">
-                    <img src="images/history_m1.png" alt="" class="md:hidden block">
-                </div>
-
-            </div>
-            <div id="content" class="my-24">
-                <h3 class="text-center text-3xl mb-5">文字文字</h3>
-                <div class="border-b-4 border-black w-16 mx-auto mb-10"></div>
-                <div class="container max-w-screen-xl mx-auto">
-                    <div class="text-center mb-20">
-                        <p>文字文字文字文字文字文字文字文字文字<br />
-                            文字文字文字文字文字文字文字文字文字文字文字文字</p>
-                    </div>
-                    <img src="images/20221122-DSC08098.png" alt="">
-                </div>
-            </div>
+          </div>
         </div>
+        <!-- <div id="history" class="my-24 container px-3 mx-auto">
+          <h3 class="text-center text-3xl mb-5">發展歷程</h3>
+          <div class="border-b-4 border-black w-16 mx-auto mb-10"></div>
+          <div class="story_content grid md:grid-cols-2 md:gap-x-20">
+            <div class="leading-8 tracking-wider"></div>
+          </div>
+        </div> -->
+        <div id="show" class="my-24 bg-zinc-800 py-24">
+          <div class="container max-w-screen-xl mx-auto md:px-0 px-10">
+            <img src="images/show.png" alt="" class="md:block hidden" />
+            <img
+              src="images/history_m2.png"
+              alt=""
+              class="md:hidden block mb-5"
+            />
+            <img src="images/history_m1.png" alt="" class="md:hidden block" />
+          </div>
+        </div>
+        <div id="content" class="my-24">
+          <h3 class="text-center text-3xl mb-5">文字文字</h3>
+          <div class="border-b-4 border-black w-16 mx-auto mb-10"></div>
+          <div class="container max-w-screen-xl mx-auto">
+            <div class="text-center mb-20">
+              <p>
+                文字文字文字文字文字文字文字文字文字<br />
+                文字文字文字文字文字文字文字文字文字文字文字文字
+              </p>
+            </div>
+            <img src="images/20221122-DSC08098.png" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>
